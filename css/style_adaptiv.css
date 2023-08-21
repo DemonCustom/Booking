@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .conteiner {
+    width: 768px;
+    height: 3843px;
+  }
+  .header {
+    max-width: 768px;
+    height: 100px;
+  }
+  .header--logo {
+    width: 132.75px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 41px;
+    margin-left: 34px;
+  }
+  .logo {
+    width: 132.75px;
+    height: 18px;
+  }
+  .header--search {
+    width: max-content;
+    height: max-content;
+  }
+  .header--form {
+    margin-left: 47px;
+    margin-top: 30px;
+  }
+  .header--form {
+    width: 340px;
+    height: 40px;
+  }
+  .search {
+    width: 245px;
+  }
+  .profile {
+    margin-left: 73px;
+    margin-top: 30px;
+    margin-right: 0;
+    margin-right: 34px;
+  }
+  .nav__bar {
+    max-width: 768px;
+    height: 60px;
+    font-size: 12px;
+  }
+  .nav__bar--deals {
+    width: 66px;
+    height: 15px;
+    margin-left: 48px;
+    font-size: 12px;
+  }
+  .nav__bar--hotels {
+    width: 48px;
+    height: 15px;
+    margin-left: 25px;
+    font-size: 12px;
+  }
+  .nav__bar--activities {
+    width: 66px;
+    height: 15px;
+    margin-left: 25px;
+  }
+  .nav__bar--packages {
+    width: 135px;
+    height: 15px;
+    margin-left: 25px;
+  }
+  .nav__bar--restaurans {
+    width: 89px;
+    height: 15px;
+    margin-left: 25px;
+  }
+  .nav__bar--events {
+    width: 47px;
+    height: 15px;
+    margin-left: 25px;
+  }
+  .nav__bar--rodrigues {
+    width: 72px;
+    height: 15px;
+    margin-left: 25px;
+  }
+  .flash__offers {
+    width: 768px;
+    height: 50px;
+  }
+  .home {
+    margin-left: 34px;
+    font-size: 10px;
+  }
+  .grand {
+    width: 768px;
+    height: 100px;
+  }
+  .grand1 {
+    width: 50%;
+  }
+  .grand2 {
+    width: 50%;
+  }
+  .star {
+    margin-left: 36px;
+  }
+  .grand__hotel--hilton {
+    margin-left: 34px;
+  }
+  .half {
+    margin-left: 34px;
+  }
+  .ratting {
+    margin-left: 283px;
+    margin-top: 35px;
+  }
+  .content {
+    width: 768px;
+    height: 750px;
+    flex-direction: column;
+  }
+  .img1 {
+    width: 700px;
+    height: 450px;
+    margin-left: 34px;
+    margin-top: 20px;
+  }
+  .linear_top {
+    width: 700px;
+    height: 450px;
+  }
+  .view_map {
+    flex-direction: row;
+  }
+  .view {
+    margin-top: 30px;
+    width: 340px;
+  }
+  .map {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .americ_map {
+    width: 340px;
+    height: 210px;
+  }
+  .content2 {
+    width: 768px;
+    height: 260px;
+  }
+  .content2--img {
+    width: 768px;
+    height: 260px;
+  }
+  .content2--subsribe {
+    padding-left: 34px;
+    padding-top: 92px;
+  }
+  .content2--newslitter {
+    padding-left: 34px;
+  }
+  .content2--form {
+    margin-left: 108px;
+  }
+  .content3 {
+    width: 769px;
+    height: 532px;
+  }
+  .content3--text {
+    width: 487px;
+    height: 38px;
+    font-size: 30px;
+  }
+  .content3--text2 {
+    width: 579px;
+    height: 299px;
+  }
+  .chevron-left {
+    right: 30px;
+  }
+  .chevron-right {
+    left: 30px;
+  }
+}/*# sourceMappingURL=style_adaptiv.css.map */
