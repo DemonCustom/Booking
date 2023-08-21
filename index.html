@@ -1,17 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div class="wrapper">
-        <div class="container">
-            <div></div>
-            <div></div>
-            <div></div>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@400;500;700&family=Space+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header--logo">
+          <img src="images\Best tour plan.svg" alt="Что то пошло не так" />
         </div>
+        <!--header--logo-->
+        <div class="header--search">
+          <form class="header--form">
+            <input class="search" type="text" placeholder="Search location |" />
+            <button class="button" type="submit">
+              <img class="search--img" src="images\search.svg" alt="" />
+            </button>
+          </form>
+        </div>
+        <!--header--search-->
+        <div class="profile">
+          <div class="profile--ellipse1">
+            <img src="images\Ellipse 1.svg" alt="" />
+          </div>
+          <p class="profile--nathan">Nathan</p>
+        </div>
+      </div>
+      <!--header-->
+      <div class="nav__bar">
+        <a href="#" class="nav__bar--deals">All Deals</a>
+        <a href="#" class="nav__bar--hotels">Hotels</a>
+        <a href="#" class="nav__bar--activities">Activities</a>
+        <a href="#" class="nav__bar--packages">Hotel Day Packages</a>
+        <a href="#" class="nav__bar--restaurans">Restaurants</a>
+        <a href="#" class="nav__bar--events">Events</a>
+        <a href="#" class="nav__bar--rodrigues">Rodrigues</a>
+      </div>
+      <!--nav__bar-->
+      <div class="flash__offers">
+        <p class="home">
+            Home / Flash Offers / Grand Hilton Hotel
+        </p>
+      </div>
+      <!--flash__offers-->
+      <div class="grand">
+        <div class="star">
+            <img src="images\Vector 1.svg" alt="">
+            <img src="images\Vector 1.svg" alt="">
+            <img src="images\Vector 1.svg" alt="">
+            <img src="images\Vector 1.svg" alt="">
+            <img src="images\Vector 1.svg" alt="">
+        </div>
+        <div class="grand__hotel" >
+            <div class="grand__hotel--hilton">
+                GRAND HILTON HOTEL
+            </div>
+            <div class="grand__hotel--offer">
+               <p class="grand__hotel--offer_text" >
+                 Flash Offer
+               </p> 
+            </div>
+        </div>
+        <div class="half">
+            <p>
+             Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free
+            </p>
+         </div>
+    
+      </div>
     </div>
-</body>
+  </body>
 </html>
